@@ -61,19 +61,6 @@ hack-manager
 
 ---
 
-## API Endpoints
-
-| Method | Endpoint                        | Description                 |
-| ------ | ------------------------------- | --------------------------- |
-| POST   | `/api/hacks`                    | Create a new hackathon      |
-| GET    | `/api/hacks`                    | Retrieve all hackathons     |
-| GET    | `/api/hacks/{id}`               | Retrieve hackathon by ID    |
-| PUT    | `/api/hacks/{id}`               | Update hackathon            |
-| DELETE | `/api/hacks/{id}`               | Delete hackathon            |
-| GET    | `/api/hacks/status/{completed}` | Filter by completion status |
-
----
-
 ## Running the Project
 
 From the project root directory:
@@ -149,4 +136,4 @@ Potential enhancements:
 ## License
 
 MIT License
-This project is intended for learning and experimentation purposes.
+This project is intended for personal use.
