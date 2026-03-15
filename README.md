@@ -128,6 +128,51 @@ This project demonstrates a standard **Spring Boot architecture** with CRUD APIs
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 It serves as a learning project for implementing REST APIs using Spring Boot.
 
 
