@@ -11,6 +11,18 @@ import java.util.List;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 @Service
 public class HackService {
 
@@ -21,27 +33,6 @@ public class HackService {
         hack.setCreatedAt(LocalDateTime.now());
         return hackRepository.save(hack);
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
