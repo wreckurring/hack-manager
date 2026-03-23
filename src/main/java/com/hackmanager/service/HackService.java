@@ -53,6 +53,15 @@ public class HackService {
 
 
 
+
+
+
+
+
+
+
+
+
     public List<Hack> getAllHacks() {
         return hackRepository.findAll();
     }
@@ -61,6 +70,84 @@ public class HackService {
         return hackRepository.findById(id)
                 .orElseThrow(() -> new RuntimeException("Hack not found"));
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     public Hack updateHack(Long id, Hack updatedHack) {
 
