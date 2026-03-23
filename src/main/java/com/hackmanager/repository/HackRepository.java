@@ -6,9 +6,48 @@ import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @Repository
 public interface HackRepository extends JpaRepository<Hack, Long> {
-
     List<Hack> findByCompleted(boolean completed);
 
 }
