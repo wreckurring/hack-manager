@@ -12,17 +12,6 @@ import java.util.List;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 @Service
 public class HackService {
 
@@ -44,15 +33,6 @@ public class HackService {
 
 
 
-
-
-
-
-
-
-
-
-
     public List<Hack> getAllHacks() {
         return hackRepository.findAll();
     }
@@ -61,6 +41,39 @@ public class HackService {
         return hackRepository.findById(id)
                 .orElseThrow(() -> new RuntimeException("Hack not found"));
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
